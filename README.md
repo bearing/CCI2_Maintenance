@@ -15,7 +15,7 @@ This repository is to serve as an archive for documentation and procedures
 related to the maintenance of CCI-2.
 The documentation is split into three main areas:
  1. Cryogenics (working with the liquid nitrogen)
- 2. Vacuum systems (attaining and maintaining vacuum in the detector cryostat)
+ 2. Vacuum (attaining/maintaining vacuum in the detector cryostat)
  3. Front-end electronics (procedures for the repair of preamplifiers)
 
 The entries in this archive are intended to be "living documents" - as 
