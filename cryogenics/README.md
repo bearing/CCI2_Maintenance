@@ -66,3 +66,16 @@ avoided.
 
 **The most important thing is that the detector never be allowed to warm up
 while bias is applied.**
+
+## Procedure for Filling CCI-2
+
+CCI-2 is filled by transferring LN<sub>2</sub> from a large 150L dewar to the
+30L dewar mounted on the cart.
+The transfer is typically done by connecting a cryo hose between the two 
+dewars and relying on the pressure differential to force LN<sub>2</sub> from
+the large dewar into the small.
+The large dewars are kept under pressure (typically 22 PSI) while the dewar on
+the cart is unpressurized (at atmospheric pressure: 14 PSI).
+The procedure for keeping CCI-2 full of LN<sub>2</sub> is broken up into two 
+steps that are covered in greater detail in the [fill procedure](link) and
+[dewar exchange procedure](link) documents.
