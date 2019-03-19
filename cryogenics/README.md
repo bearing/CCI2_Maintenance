@@ -77,5 +77,6 @@ the large dewar into the small.
 The large dewars are kept under pressure (typically 22 PSI) while the dewar on
 the cart is unpressurized (at atmospheric pressure: 14 PSI).
 The procedure for keeping CCI-2 full of LN<sub>2</sub> is broken up into two 
-steps that are covered in greater detail in the [fill procedure](link) and
-[dewar exchange procedure](link) documents.
+steps that are covered in greater detail in the 
+[fill procedure](./fill_procedure.md) and
+[dewar exchange procedure](./change_dewar_procedure.md) documents.
