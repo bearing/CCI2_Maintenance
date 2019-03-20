@@ -42,6 +42,16 @@ array of vacuum components (O-rings, flanges, clamps, hoses, etc.)
 
 ## Procedure
 
+### Part 1: Setup and Line Evacuation
+
+The first part of the procedure is concerned with setting up the turbopump and
+verifying that suitable levels of vacuum can be attained with the equipment.
+**The cryostat is to remained sealed for this procedure**.
+Only continue on to the pumping down of the cryostat once you are convinced 
+that the vacuum pulled on the hose by the turbopump is of a satisfactory level
+(< 1e-7 mbar) and stable (i.e. is not perturbed if the hose or Y-adapter is
+lightly jostled).
+
  1. **Ensure that there is no bias applied to the detector**.
     If the detector is currently biased, follow the ramp-down procedure before
     continuing.
@@ -97,3 +107,69 @@ array of vacuum components (O-rings, flanges, clamps, hoses, etc.)
        point the pressure stops decreasing and begins to increase, you have a
        leak**. De-activate the pump via the digital switch and debug the 
        vacuum system (see [this procedure](./vacuum_debug.md)).
+ 17. Assuming the last step went according to plan and a pressure of 1e-3 mbar
+     was reached in the first 30 seconds or so of the pump being activated,
+     continue to monitor the pressure.
+     A pressure of 1e-5 mbar should be easily achievable in a few minutes.
+     Once this pressure has been achieved, you can safely leave the system to
+     continue pumping down (note that the valve to the cryostat is 
+     still closed, so you are only evacuating the pump/hose).
+ 18. Check the system a few times every hour or two to ensure that the 
+     pressure is still steadily decreasing.
+ 19. A pressure of ~1e-7 mbar should easily be achievable within 24 hours.
+     Once this pressure is achieved, you can move on to the next procedure -
+     opening the valve to the cryostat.
+     - Note: if the measured pressure does not decrease below 1e-6 mbar, 
+       after 24 hours of pumping, it is recommended that you deactivate the
+       pump and check the connections.
+       Consider re-greasing the O-rings and restart the procedure from step 12.
+
+### Part 2: Cryostat Pumpdown
+
+Once a suitable and stable vacuum has been attained from the above procedure,
+the valve to the cryostat can be opened.
+This valve is opened by means of the plunger on the Y-adapter.
+
+ 1. Ensure that the system is ready for the cryostat should be opened.
+    The pressure should be < 1e-7 mbar, the turbopump speed should be 1500 Hz,
+    and the pressure should not change if the vacuum hose is gently bumped or
+    wiggled.
+ 2. Push the plunger on the Y-adapter in towards the cryostat.
+    - N.B. The pressure will increase as this part is moved; however, if the
+      pressure jumps significantly (i.e. from 1e-7 mbar to 1e-4 mbar or higher)
+      or the speed of the turbopump decreases from 1500 Hz, this indicates a
+      breach in the vacuum line.
+      Deactivate the pump using the digital on/off switch and repeat Part 1 
+      from step 12 onward.
+ 3. Once the plunger can no longer be pushed further in, begin slowly twisting
+    the plunger clockwise as you push in. The plunger will move a bit further
+    in as the plunger engages with the locking mechanism on the cryostat 
+    valve.
+ 4. Continue turning the plunger clockwise until it resists being turned
+    further. This is an indication that the locking mechanism is engaged.
+ 5. Once the plunger has been successfully mated (locked) with the cryostat
+    valve, you can open the valve to the cryostat by twisting the plunger
+    counter-clockwise. Do this slowly and monitor the digital pressure gauge
+    on the pump as you do so.
+    - When the valve is opened, the pressure will likely increase, potentially
+      to as high as 1e-5 mbar depending on how much the vacuum in the cryostat
+      has degraded.
+    - **If the pressure jumps to >1e-3 mbar, or the turbopump speed suddenly
+        decreaes, immediately close the valve by turning the plunger
+        clockwise**. Such behavior would indicate that vacuum has been lost in
+        the CCI-2 cryostat. If this happens, contact your advisor before
+        continuing. It is safe to leave the pump running as long as the valve
+        to the cryostat is closed.
+ 6. Assuming everything went okay with the last step, pull the plunger away 
+    from the cryostat to ensure that the valve is completely open.
+ 7. At this point, the cryostat is open and being "pumped down". Monitor the
+    system at least once a day.
+    - The pressure as indicated by the digital gauge on the pump should 
+      decrease, though much more slowly.
+    - A pressure of 1e-7 mbar is usually acheivable for the system. Depending
+      on the starting point of the cryostat vacuum, it may take as little as
+      24 hours or as long as two weeks to reach this level.
+    - The valve can be closed whenever a "suitable" pressure has been 
+      achieved. I typically pump down to about 1e-7 mbar which usually also
+      corresponds to a minimum cryostat temperature in the range from 90-91K
+      (assuming the detector is cold at the time of the pumping).
