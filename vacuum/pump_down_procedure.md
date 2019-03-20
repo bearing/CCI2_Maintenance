@@ -173,3 +173,37 @@ This valve is opened by means of the plunger on the Y-adapter.
       achieved. I typically pump down to about 1e-7 mbar which usually also
       corresponds to a minimum cryostat temperature in the range from 90-91K
       (assuming the detector is cold at the time of the pumping).
+
+### Part 3: Ending the Pumpdown
+
+The procedure for ending the pumpdown and returning CCI-2 to full working order
+is essentially running the above two procedures in reverse.
+
+ 1. Close the cryostat valve. Push the plunger in towards the cryostat until
+    it can no longer be simply pushed. Twist the plunger clockwise until the
+    valve is fully closed (i.e. the plunger resists further twisting).
+ 2. The valve should be firmly closed; completely finger tight.
+ 3. Once the valve is fully closed, the plunger is disengaged from the valve
+    by pulling outwards on the plunger while *very slightly* turning
+    counter-clockwise. The slight counter-clockwise turn will disengage the 
+    locking mechanism, but be sure you don't accidentally re-open the valve!
+    If you are unsure, repeat steps 1 and 2.
+ 4. Once you are confident that the valve is close and the plunger has been
+    disengaged, deactivate the pump using the digital on/off switch.
+ 5. Watch the temperature gauge on the CCI-2 cart. If the temperature rises
+    drastically as the pump deactivates, the valve was not sufficiently closed.
+    If the temperature rise is slow (O(1K/sec)) you can try to recover by
+    immediately re-activating the pump.
+    If the temperature rise is significantly faster, then vacuum has been lost.
+    Contact your advisor.
+ 6. Wait for the pressure gauge on the pump to read ">1e3 mbar" indicating the
+    line is at atmospheric pressure.
+ 7. **Make sure you are wearing gloves**.
+ 8. Start disassembling the vacuum setup by removing the clamp holding the
+    vacuum hose to the Y-adapter.
+    - N.B. Be ready to catch the O-ring that will fall out after the clamp has 
+      been fully removed.
+ 9. Either cap the hose with a stopper using the same O-ring and clamp 
+    (preferred) or cap the hose with a plastic stopper and store the O-ring in
+    a piece of ultra high vacuum foil.
+ 10. 
