@@ -206,4 +206,23 @@ is essentially running the above two procedures in reverse.
  9. Either cap the hose with a stopper using the same O-ring and clamp 
     (preferred) or cap the hose with a plastic stopper and store the O-ring in
     a piece of ultra high vacuum foil.
- 10. 
+ 10. When the digital display on the pump shows that the true speed of the 
+     turbo is 0Hz, you can safely turn the turbopump off via the green
+     analog switch.
+ 11. Unplug the pump from the CCI-2 cart and move it out of the way so the
+     detector can be easily accessed.
+ 12. Re-attached the signal cable cleats to the DC-side preamplifier boxes.
+ 13. Secure the signal cable cleats in place with the 4 screws (see Part 1).
+ 14. Reattach the preamplifier power supply cables to the bottom of the 
+     DC-side preamplifier boxes.
+     Note that the cables will only fit for a single orientation, so don't 
+     try to force the cables on.
+     Instead, gently rotate the base of the cable until the correct orientation
+     is found and the cable pops into place.
+ 15. Attach one signal cable from each of the four preamplifier boxes to an
+     input on the four channel oscilloscope.
+ 16. Once you are confident the preamplifier power cables are correctly 
+     reattached, turn the NIM bin on and watch the four oscilloscope traces.
+     All four traces should "jump" in response to the power being turned on.
+ 17. At this point, the detector is ready to be ramped back up (assuming it is
+     cold).
